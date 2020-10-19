@@ -1,6 +1,6 @@
 let data = require("../db/db.json");
 
-const app = require("express").Router;
+const app = require("express").Router();
 
 module.exports = function(app) {
     app.get("/api/notes", function(req, res) {
