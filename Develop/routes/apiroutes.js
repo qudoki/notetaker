@@ -1,5 +1,5 @@
 const fs = require("fs");
-let data = JSON.parse(fs.readFileSync("./db/db.json", "utf-8"));
+let data = JSON.parse(fs.readFileSync("././Develop/db/db.json", "utf-8"));
 
 // const app = require("express").Router();
 
@@ -20,7 +20,7 @@ module.exports = function (app) {
         newNote.id = uniqueId;
         data.push(newNote);
 
-        fs.writeFileSync("./db/db.json", JSON.stringify(data), function (err) {
+        fs.writeFileSync("././Develop/db/db.json", JSON.stringify(data), function (err) {
             if (err) throw (err);
         });
 
