@@ -1,7 +1,7 @@
 # Note Taker
 
 ### Description: 
-A Node.js/Express server application that allows users to take notes, and serves the files on Heroku.
+A Node.js/Express server application that allows users to take notes and keep track of important information. This application uses an express backend to get, post, and delete data from a local JSON file. This is also served on Heroku.
 
 # Table of Contents 
 - [Installation](https://github.com/qudoki/notetaker/blob/master/README.md#installation)
