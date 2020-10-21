@@ -18,7 +18,7 @@ A Node.js/Express server application that allows users to take notes and keep tr
 ## Usage: 
 - In order to run this package, please enter the following command: "node server.js" on localhost:8080.
 #### Screenshot
-![Example App](/Develop/assets/example.pngassets/example.png)
+![Example App](/Develop/assets/example.png)
 
 ## Testing: 
 - There is no testing for this application.
