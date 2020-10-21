@@ -37,11 +37,12 @@ module.exports = function (app) {
         data = data.filter(currentNote => {
             return currentNote.id != noteId;
         });
+        //Go through and make what was 1, 2, 4, 5 --> 1, 2, 3, 4
         for (currentNote of data) {
             currentNote.id = newId.toString();
             newId++;
         }
-        fs.writeFileSync("./db/db.json", JSON.stringify(data));
+        fs.writeFileSync("././Develop/db/db.json", JSON.stringify(data));
         res.json(data);
     });
 
